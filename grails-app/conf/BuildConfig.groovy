@@ -79,5 +79,8 @@ grails.project.dependency.resolution = {
         //compile ":coffee-asset-pipeline:1.5.0"
         //compile ":handlebars-asset-pipeline:1.0.0.3"
         compile ":spring-security-core:2.0.0"
+        compile "org.grails.plugins:heroku:1.0.1"
+        compile ':heroku:1.0.1'
+        compile ':cloud-support:1.0.11'
     }
 }
