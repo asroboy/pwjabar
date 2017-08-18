@@ -22,7 +22,7 @@ class BootStrap {
             UserRole.create adminUser, adminRole
         }
 
-        Departemen.findByNama("PW")?:new Departemen(nama: "PW").save(flush: true);
+//        Departemen.findByNama("PW")?:new Departemen(nama: "PW").save(flush: true);
         Departemen.findByNama("DPPW")?:new Departemen(nama: "DPPW").save(flush: true);
         Departemen.findByNama("DPWW")?:new Departemen(nama: "DPWW").save(flush: true);
         Departemen.findByNama("DPRW")?:new Departemen(nama: "DPRW").save(flush: true);
